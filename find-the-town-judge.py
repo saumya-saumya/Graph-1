@@ -1,5 +1,5 @@
-# T.C. O(n) - number of elements in trust
-# S.C. O(p) - number of person
+# T.C. O(V+E) - number of elements in trust
+# S.C. O(V) - V number of person
 class Solution:
     
     def findJudge(self, n: int, trust: List[List[int]]) -> int:
